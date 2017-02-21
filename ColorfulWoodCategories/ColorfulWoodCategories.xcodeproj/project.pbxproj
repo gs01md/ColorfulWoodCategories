@@ -28,6 +28,8 @@
 		8B49FA551E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA531E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m */; };
 		8B49FA581E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B49FA561E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B49FA591E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA571E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m */; };
+		8B4BB7DB1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4BB7D91E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4BB7DC1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BB7DA1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		8B49FA531E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
 		8B49FA561E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+ColorfulWoodMargin.h"; sourceTree = "<group>"; };
 		8B49FA571E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+ColorfulWoodMargin.m"; sourceTree = "<group>"; };
+		8B4BB7D91E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ColorfulWoodRegex.h"; sourceTree = "<group>"; };
+		8B4BB7DA1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorfulWoodRegex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				8B49FA531E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m */,
 				8B49FA561E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h */,
 				8B49FA571E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m */,
+				8B4BB7D91E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h */,
+				8B4BB7DA1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m */,
 			);
 			path = ColorfulWoodCategories;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 				8B49FA541E56D45900916D11 /* UIImage+ColorfulWoodAddtional.h in Headers */,
 				8B49FA3B1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.h in Headers */,
 				8B49FA581E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h in Headers */,
+				8B4BB7DB1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h in Headers */,
 				8B49FA261E56C09800916D11 /* ColorfulWoodCategories.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4BB7DC1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m in Sources */,
 				8B49FA3C1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.m in Sources */,
 				8B49FA551E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m in Sources */,
 				8B49FA591E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m in Sources */,
