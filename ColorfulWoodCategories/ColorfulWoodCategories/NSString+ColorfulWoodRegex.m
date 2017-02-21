@@ -35,7 +35,7 @@
     return [self baseCheckForRegEx:regEx data:idCard];
 }
 #pragma mark - 密码校验
-+(BOOL)checkForPasswordWithShortest:(NSInteger)shortest longest:(NSInteger)longest password:(NSString *)pwd{
++(BOOL)checkForPasswordWithShortest:(long)shortest longest:(long)longest password:(NSString *)pwd{
     NSString *regEx =[NSString stringWithFormat:@"^[a-zA-Z0-9]{%ld,%ld}+$", shortest, longest];
     return [self baseCheckForRegEx:regEx data:pwd];
 }

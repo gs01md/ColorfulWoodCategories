@@ -54,7 +54,7 @@
  *
  *  @return 结果
  */
-+(BOOL)checkForPasswordWithShortest:(NSString *)shortest longest:(NSString *)longest password:(NSString *)pwd;
++(BOOL)checkForPasswordWithShortest:(long)shortest longest:(long)longest password:(NSString *)pwd;
 
 
 /**
