@@ -21,7 +21,7 @@
 /**
  *  手机号验证
  *
- *  @param phone 手机号
+ *  @param mobilePhone 手机号
  *
  *  @return YES:正确  NO:失败
  */
@@ -30,11 +30,11 @@
 /**
  *  电话号验证
  *
- *  @param phone 电话号
+ *  @param mobilePhone 电话号
  *
  *  @return 结果
  */
-+(BOOL)checkForPhoneNo:(NSString *)phone;
++(BOOL)checkForPhoneNo:(NSString *)mobilePhone;
 
 /**
  *  身份证号验证(15位 或 18位)
