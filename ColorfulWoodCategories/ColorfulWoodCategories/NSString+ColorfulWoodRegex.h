@@ -14,7 +14,7 @@
  * 根据传入的规则，进行校验；
  * 如果传入为空，则不进行校验，直接返回成功
  */
-- (BOOL) interface_checkWith:(NSString*)regEx;
+- (BOOL) interface_checkWithRegex:(NSString*)regEx;
 
 
 //----------------------------------------------------------------------
@@ -143,10 +143,6 @@
  */
 + (BOOL) checkForNumberWithLength:(NSString *)length number:(NSString *)number;
 
-/**
- * 根据传入的规则，进行校验；
- * 如果传入为空，则不进行校验，直接返回成功
- */
-- (BOOL) interface_checkWith:(NSString*)regex;
+
 
 @end
