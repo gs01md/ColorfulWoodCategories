@@ -3,59 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		8B49FA2C1E56C0D200916D11 /* FatFramework */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 8B49FA2D1E56C0D200916D11 /* Build configuration list for PBXAggregateTarget "FatFramework" */;
-			buildPhases = (
-				8B49FA301E56C0D800916D11 /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = FatFramework;
-			productName = FatFramework;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		8B117D082089B92300A32AAA /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B117D062089B92300A32AAA /* UIColor+Hex.h */; };
-		8B117D092089B92300A32AAA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B117D072089B92300A32AAA /* UIColor+Hex.m */; };
-		8B49FA261E56C09800916D11 /* ColorfulWoodCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B49FA241E56C09800916D11 /* ColorfulWoodCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B49FA3B1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B49FA391E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B49FA3C1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA3A1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.m */; };
-		8B49FA541E56D45900916D11 /* UIImage+ColorfulWoodAddtional.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B49FA521E56D45900916D11 /* UIImage+ColorfulWoodAddtional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B49FA551E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA531E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m */; };
-		8B49FA581E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B49FA561E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B49FA591E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA571E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m */; };
-		8B4BB7DB1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4BB7D91E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4BB7DC1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BB7DA1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m */; };
-		8B61112520AD561B00D55C3A /* NSDictionary+BmobCheckResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B61112320AD561B00D55C3A /* NSDictionary+BmobCheckResult.h */; };
-		8B61112620AD561B00D55C3A /* NSDictionary+BmobCheckResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B61112420AD561B00D55C3A /* NSDictionary+BmobCheckResult.m */; };
+		8B577C3A2101DA3000355A95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C392101DA3000355A95 /* AppDelegate.m */; };
+		8B577C3D2101DA3000355A95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C3C2101DA3000355A95 /* ViewController.m */; };
+		8B577C402101DA3000355A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B577C3E2101DA3000355A95 /* Main.storyboard */; };
+		8B577C422101DA3600355A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B577C412101DA3600355A95 /* Assets.xcassets */; };
+		8B577C452101DA3600355A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B577C432101DA3600355A95 /* LaunchScreen.storyboard */; };
+		8B577C482101DA3600355A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C472101DA3600355A95 /* main.m */; };
+		8B577C5C2101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C4F2101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.m */; };
+		8B577C5D2101DAE900355A95 /* UIImage+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C502101DAE900355A95 /* UIImage+ColorfulWoodAddtional.m */; };
+		8B577C5E2101DAE900355A95 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C512101DAE900355A95 /* UIColor+Hex.m */; };
+		8B577C5F2101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C522101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.m */; };
+		8B577C602101DAE900355A95 /* NSDictionary+BmobCheckResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C542101DAE900355A95 /* NSDictionary+BmobCheckResult.m */; };
+		8B577C612101DAE900355A95 /* NSString+ColorfulWoodRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C592101DAE900355A95 /* NSString+ColorfulWoodRegex.m */; };
+		8B577C642101DBBE00355A95 /* NSString+ColorfulWoodSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B577C632101DBBE00355A95 /* NSString+ColorfulWoodSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B117D062089B92300A32AAA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		8B117D072089B92300A32AAA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		8B49FA211E56C09800916D11 /* ColorfulWoodCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorfulWoodCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B49FA241E56C09800916D11 /* ColorfulWoodCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodCategories.h; sourceTree = "<group>"; };
-		8B49FA251E56C09800916D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B49FA391E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ColorfulWoodAddtional.h"; sourceTree = "<group>"; };
-		8B49FA3A1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
-		8B49FA521E56D45900916D11 /* UIImage+ColorfulWoodAddtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorfulWoodAddtional.h"; sourceTree = "<group>"; };
-		8B49FA531E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
-		8B49FA561E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+ColorfulWoodMargin.h"; sourceTree = "<group>"; };
-		8B49FA571E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+ColorfulWoodMargin.m"; sourceTree = "<group>"; };
-		8B4BB7D91E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ColorfulWoodRegex.h"; sourceTree = "<group>"; };
-		8B4BB7DA1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorfulWoodRegex.m"; sourceTree = "<group>"; };
-		8B61112320AD561B00D55C3A /* NSDictionary+BmobCheckResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BmobCheckResult.h"; sourceTree = "<group>"; };
-		8B61112420AD561B00D55C3A /* NSDictionary+BmobCheckResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BmobCheckResult.m"; sourceTree = "<group>"; };
+		8B577C352101DA3000355A95 /* ColorfulWoodCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulWoodCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B577C382101DA3000355A95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B577C392101DA3000355A95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B577C3B2101DA3000355A95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B577C3C2101DA3000355A95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B577C3F2101DA3000355A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B577C412101DA3600355A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B577C442101DA3600355A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B577C462101DA3600355A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B577C472101DA3600355A95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B577C4F2101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+ColorfulWoodMargin.m"; sourceTree = "<group>"; };
+		8B577C502101DAE900355A95 /* UIImage+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
+		8B577C512101DAE900355A95 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		8B577C522101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
+		8B577C532101DAE900355A95 /* NSString+ColorfulWoodRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ColorfulWoodRegex.h"; sourceTree = "<group>"; };
+		8B577C542101DAE900355A95 /* NSDictionary+BmobCheckResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BmobCheckResult.m"; sourceTree = "<group>"; };
+		8B577C552101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+ColorfulWoodMargin.h"; sourceTree = "<group>"; };
+		8B577C562101DAE900355A95 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		8B577C572101DAE900355A95 /* UIImage+ColorfulWoodAddtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorfulWoodAddtional.h"; sourceTree = "<group>"; };
+		8B577C582101DAE900355A95 /* ColorfulWoodCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodCategories.h; sourceTree = "<group>"; };
+		8B577C592101DAE900355A95 /* NSString+ColorfulWoodRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorfulWoodRegex.m"; sourceTree = "<group>"; };
+		8B577C5A2101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ColorfulWoodAddtional.h"; sourceTree = "<group>"; };
+		8B577C5B2101DAE900355A95 /* NSDictionary+BmobCheckResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BmobCheckResult.h"; sourceTree = "<group>"; };
+		8B577C622101DBBE00355A95 /* NSString+ColorfulWoodSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ColorfulWoodSize.h"; sourceTree = "<group>"; };
+		8B577C632101DBBE00355A95 /* NSString+ColorfulWoodSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorfulWoodSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B49FA1D1E56C09800916D11 /* Frameworks */ = {
+		8B577C322101DA3000355A95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,71 +61,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B49FA171E56C09800916D11 = {
+		8B577C2C2101DA3000355A95 = {
 			isa = PBXGroup;
 			children = (
-				8B49FA231E56C09800916D11 /* ColorfulWoodCategories */,
-				8B49FA221E56C09800916D11 /* Products */,
+				8B577C372101DA3000355A95 /* ColorfulWoodCategories */,
+				8B577C362101DA3000355A95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8B49FA221E56C09800916D11 /* Products */ = {
+		8B577C362101DA3000355A95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B49FA211E56C09800916D11 /* ColorfulWoodCategories.framework */,
+				8B577C352101DA3000355A95 /* ColorfulWoodCategories.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B49FA231E56C09800916D11 /* ColorfulWoodCategories */ = {
+		8B577C372101DA3000355A95 /* ColorfulWoodCategories */ = {
 			isa = PBXGroup;
 			children = (
-				8B61112320AD561B00D55C3A /* NSDictionary+BmobCheckResult.h */,
-				8B61112420AD561B00D55C3A /* NSDictionary+BmobCheckResult.m */,
-				8B49FA241E56C09800916D11 /* ColorfulWoodCategories.h */,
-				8B49FA251E56C09800916D11 /* Info.plist */,
-				8B49FA391E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.h */,
-				8B49FA3A1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.m */,
-				8B49FA521E56D45900916D11 /* UIImage+ColorfulWoodAddtional.h */,
-				8B49FA531E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m */,
-				8B49FA561E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h */,
-				8B49FA571E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m */,
-				8B4BB7D91E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h */,
-				8B4BB7DA1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m */,
-				8B117D062089B92300A32AAA /* UIColor+Hex.h */,
-				8B117D072089B92300A32AAA /* UIColor+Hex.m */,
+				8B577C4E2101DAE900355A95 /* CocoapodFiles */,
+				8B577C382101DA3000355A95 /* AppDelegate.h */,
+				8B577C392101DA3000355A95 /* AppDelegate.m */,
+				8B577C3B2101DA3000355A95 /* ViewController.h */,
+				8B577C3C2101DA3000355A95 /* ViewController.m */,
+				8B577C3E2101DA3000355A95 /* Main.storyboard */,
+				8B577C412101DA3600355A95 /* Assets.xcassets */,
+				8B577C432101DA3600355A95 /* LaunchScreen.storyboard */,
+				8B577C462101DA3600355A95 /* Info.plist */,
+				8B577C472101DA3600355A95 /* main.m */,
 			);
 			path = ColorfulWoodCategories;
 			sourceTree = "<group>";
 		};
+		8B577C4E2101DAE900355A95 /* CocoapodFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8B577C582101DAE900355A95 /* ColorfulWoodCategories.h */,
+				8B577C562101DAE900355A95 /* UIColor+Hex.h */,
+				8B577C512101DAE900355A95 /* UIColor+Hex.m */,
+				8B577C532101DAE900355A95 /* NSString+ColorfulWoodRegex.h */,
+				8B577C592101DAE900355A95 /* NSString+ColorfulWoodRegex.m */,
+				8B577C5B2101DAE900355A95 /* NSDictionary+BmobCheckResult.h */,
+				8B577C542101DAE900355A95 /* NSDictionary+BmobCheckResult.m */,
+				8B577C572101DAE900355A95 /* UIImage+ColorfulWoodAddtional.h */,
+				8B577C502101DAE900355A95 /* UIImage+ColorfulWoodAddtional.m */,
+				8B577C552101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.h */,
+				8B577C4F2101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.m */,
+				8B577C5A2101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.h */,
+				8B577C522101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.m */,
+				8B577C622101DBBE00355A95 /* NSString+ColorfulWoodSize.h */,
+				8B577C632101DBBE00355A95 /* NSString+ColorfulWoodSize.m */,
+			);
+			path = CocoapodFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		8B49FA1E1E56C09800916D11 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B49FA541E56D45900916D11 /* UIImage+ColorfulWoodAddtional.h in Headers */,
-				8B49FA3B1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.h in Headers */,
-				8B49FA581E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.h in Headers */,
-				8B61112520AD561B00D55C3A /* NSDictionary+BmobCheckResult.h in Headers */,
-				8B4BB7DB1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.h in Headers */,
-				8B117D082089B92300A32AAA /* UIColor+Hex.h in Headers */,
-				8B49FA261E56C09800916D11 /* ColorfulWoodCategories.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		8B49FA201E56C09800916D11 /* ColorfulWoodCategories */ = {
+		8B577C342101DA3000355A95 /* ColorfulWoodCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B49FA291E56C09800916D11 /* Build configuration list for PBXNativeTarget "ColorfulWoodCategories" */;
+			buildConfigurationList = 8B577C4B2101DA3600355A95 /* Build configuration list for PBXNativeTarget "ColorfulWoodCategories" */;
 			buildPhases = (
-				8B49FA1C1E56C09800916D11 /* Sources */,
-				8B49FA1D1E56C09800916D11 /* Frameworks */,
-				8B49FA1E1E56C09800916D11 /* Headers */,
-				8B49FA1F1E56C09800916D11 /* Resources */,
+				8B577C312101DA3000355A95 /* Sources */,
+				8B577C322101DA3000355A95 /* Frameworks */,
+				8B577C332101DA3000355A95 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -137,99 +133,105 @@
 			);
 			name = ColorfulWoodCategories;
 			productName = ColorfulWoodCategories;
-			productReference = 8B49FA211E56C09800916D11 /* ColorfulWoodCategories.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 8B577C352101DA3000355A95 /* ColorfulWoodCategories.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8B49FA181E56C09800916D11 /* Project object */ = {
+		8B577C2D2101DA3000355A95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = ColorfulWood;
 				TargetAttributes = {
-					8B49FA201E56C09800916D11 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Manual;
-					};
-					8B49FA2C1E56C0D200916D11 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8SN9TJYA97;
-						ProvisioningStyle = Automatic;
+					8B577C342101DA3000355A95 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 8B49FA1B1E56C09800916D11 /* Build configuration list for PBXProject "ColorfulWoodCategories" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 8B577C302101DA3000355A95 /* Build configuration list for PBXProject "ColorfulWoodCategories" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 8B49FA171E56C09800916D11;
-			productRefGroup = 8B49FA221E56C09800916D11 /* Products */;
+			mainGroup = 8B577C2C2101DA3000355A95;
+			productRefGroup = 8B577C362101DA3000355A95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B49FA201E56C09800916D11 /* ColorfulWoodCategories */,
-				8B49FA2C1E56C0D200916D11 /* FatFramework */,
+				8B577C342101DA3000355A95 /* ColorfulWoodCategories */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8B49FA1F1E56C09800916D11 /* Resources */ = {
+		8B577C332101DA3000355A95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B577C452101DA3600355A95 /* LaunchScreen.storyboard in Resources */,
+				8B577C422101DA3600355A95 /* Assets.xcassets in Resources */,
+				8B577C402101DA3000355A95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8B49FA301E56C0D800916D11 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos -arch armv7 -arch armv7s -arch arm64 clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator -arch x86_64 -arch i386 clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${SRCROOT}/Products/\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		8B49FA1C1E56C09800916D11 /* Sources */ = {
+		8B577C312101DA3000355A95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4BB7DC1E5BE0CD00C3623D /* NSString+ColorfulWoodRegex.m in Sources */,
-				8B117D092089B92300A32AAA /* UIColor+Hex.m in Sources */,
-				8B61112620AD561B00D55C3A /* NSDictionary+BmobCheckResult.m in Sources */,
-				8B49FA3C1E56C65E00916D11 /* UIViewController+ColorfulWoodAddtional.m in Sources */,
-				8B49FA551E56D45900916D11 /* UIImage+ColorfulWoodAddtional.m in Sources */,
-				8B49FA591E56E4CC00916D11 /* UINavigationItem+ColorfulWoodMargin.m in Sources */,
+				8B577C602101DAE900355A95 /* NSDictionary+BmobCheckResult.m in Sources */,
+				8B577C5F2101DAE900355A95 /* UIViewController+ColorfulWoodAddtional.m in Sources */,
+				8B577C3D2101DA3000355A95 /* ViewController.m in Sources */,
+				8B577C5E2101DAE900355A95 /* UIColor+Hex.m in Sources */,
+				8B577C5C2101DAE900355A95 /* UINavigationItem+ColorfulWoodMargin.m in Sources */,
+				8B577C5D2101DAE900355A95 /* UIImage+ColorfulWoodAddtional.m in Sources */,
+				8B577C482101DA3600355A95 /* main.m in Sources */,
+				8B577C642101DBBE00355A95 /* NSString+ColorfulWoodSize.m in Sources */,
+				8B577C612101DAE900355A95 /* NSString+ColorfulWoodRegex.m in Sources */,
+				8B577C3A2101DA3000355A95 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		8B577C3E2101DA3000355A95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B577C3F2101DA3000355A95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B577C432101DA3600355A95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B577C442101DA3600355A95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		8B49FA271E56C09800916D11 /* Debug */ = {
+		8B577C492101DA3600355A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -248,15 +250,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -270,25 +272,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8B49FA281E56C09800916D11 /* Release */ = {
+		8B577C4A2101DA3600355A95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -307,15 +308,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -323,101 +324,69 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8B49FA2A1E56C09800916D11 /* Debug */ = {
+		8B577C4C2101DA3600355A95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SN9TJYA97;
 				INFOPLIST_FILE = ColorfulWoodCategories/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wood.ColorfulWoodCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8B49FA2B1E56C09800916D11 /* Release */ = {
+		8B577C4D2101DA3600355A95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SN9TJYA97;
 				INFOPLIST_FILE = ColorfulWoodCategories/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wood.ColorfulWoodCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8B49FA2E1E56C0D200916D11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 8SN9TJYA97;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		8B49FA2F1E56C0D200916D11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 8SN9TJYA97;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B49FA1B1E56C09800916D11 /* Build configuration list for PBXProject "ColorfulWoodCategories" */ = {
+		8B577C302101DA3000355A95 /* Build configuration list for PBXProject "ColorfulWoodCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B49FA271E56C09800916D11 /* Debug */,
-				8B49FA281E56C09800916D11 /* Release */,
+				8B577C492101DA3600355A95 /* Debug */,
+				8B577C4A2101DA3600355A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B49FA291E56C09800916D11 /* Build configuration list for PBXNativeTarget "ColorfulWoodCategories" */ = {
+		8B577C4B2101DA3600355A95 /* Build configuration list for PBXNativeTarget "ColorfulWoodCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B49FA2A1E56C09800916D11 /* Debug */,
-				8B49FA2B1E56C09800916D11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8B49FA2D1E56C0D200916D11 /* Build configuration list for PBXAggregateTarget "FatFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B49FA2E1E56C0D200916D11 /* Debug */,
-				8B49FA2F1E56C0D200916D11 /* Release */,
+				8B577C4C2101DA3600355A95 /* Debug */,
+				8B577C4D2101DA3600355A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8B49FA181E56C09800916D11 /* Project object */;
+	rootObject = 8B577C2D2101DA3000355A95 /* Project object */;
 }
