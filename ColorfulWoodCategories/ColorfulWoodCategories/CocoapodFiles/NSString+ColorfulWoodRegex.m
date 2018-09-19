@@ -68,7 +68,7 @@
 #pragma mark - 验证手机号
 +(BOOL)checkForMobilePhoneNo:(NSString *)mobilePhone{
     
-    NSString *regEx = @"^1[3|4|5|7|8][0-9]\\d{8}$";
+    NSString *regEx = @"^1[3|4|5|6|7|8|9][0-9]\\d{8}$";
     return [self baseCheckForRegEx:regEx data:mobilePhone];
 }
 #pragma mark - 验证电话号
