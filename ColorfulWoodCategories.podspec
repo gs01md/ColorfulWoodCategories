@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodCategories"
-  s.version      = "1.0.19"
+  s.version      = "1.0.20"
   s.summary      = "Add NSString Regex"
 
   s.homepage     = "https://github.com/gs01md"
