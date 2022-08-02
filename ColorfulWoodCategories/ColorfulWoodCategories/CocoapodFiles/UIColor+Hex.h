@@ -20,5 +20,6 @@ alpha:(a)]
 + (UIColor *)colorWithHex:(long)hexColor alpha:(float)opacity;
 + (UIColor *)colorWithHexTranslucent:(UIColor *)color;
 + (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
++ (UIColor *)colorWithHexString:(NSString *)color;
 
 @end
