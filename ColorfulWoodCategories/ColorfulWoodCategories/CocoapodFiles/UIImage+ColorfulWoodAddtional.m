@@ -329,4 +329,97 @@ static CGFloat RadiansToDegrees(CGFloat radians) {return radians * 180/M_PI;};
     return image;
 }
 
+/**
+ 生成一张渐变色的图片
+ @param colors 颜色数组
+ @param size 图片大小
+ @return 返回渐变图片
+ */
++ (UIImage *)imageWithGradientColors:(NSArray *)colors size:(CGSize)size{
+
+    if(size.width<1 ){
+        size.width = 100;
+    }
+
+    if(size.height<1 ){
+        size.height = 100;
+    }
+
+    CGRect rect = CGRectMake(0, 0, size.width, size.height);
+
+    if (!colors.count || CGRectEqualToRect(rect, CGRectZero)) {
+        return nil;
+    }
+
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+
+    gradientLayer.frame = rect;
+    gradientLayer.startPoint = CGPointMake(0, 0);
+    gradientLayer.endPoint = CGPointMake(1, 0);
+    NSMutableArray *mutColors = [NSMutableArray arrayWithCapacity:colors.count];
+    for (UIColor *color in colors) {
+        [mutColors addObject:(__bridge id)color.CGColor];
+    }
+    gradientLayer.colors = [NSArray arrayWithArray:mutColors];
+
+    UIGraphicsBeginImageContextWithOptions(gradientLayer.frame.size, gradientLayer.opaque, 0);
+    [gradientLayer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return outputImage;
+}
+
++(UIColor*)similarColor:(UIColor*)color add:(CGFloat)add{
+
+    UIColor * result = [UIColor blueColor];
+    if(!color){
+        color =  [UIColor blueColor];
+    }
+
+    CGFloat red , green, blue ,alpha;
+
+    const CGFloat *components =CGColorGetComponents(color.CGColor);
+
+    red = components[0];
+    green = components[1];
+    blue = components[2];
+    alpha = components[3];
+
+    red = [self similarFloat:components[0] add:add];
+    green = [self similarFloat:components[1] add:add];
+    blue = [self similarFloat:components[2] add:add];
+
+    result = [UIColor colorWithRed:red green:green blue:blue alpha:components[3]];
+
+    return  result;
+
+}
+
+/// 相似的颜色值 r \ g\ b
++ (CGFloat) similarFloat:(CGFloat)fl add:(CGFloat)a{
+
+    a = a/255.;
+
+    if(a<=0) a= 5/255.;
+
+    CGFloat result = 200/255.;
+
+    if(fl<=0 || fl>1){
+        fl = 200/255.;
+    }
+
+    if(fl+a > 1){
+        result = fl-a;
+    }else{
+        result = fl+a;
+    }
+
+    if(result<=0 || result>1){
+        result = 200/255.;
+    }
+
+    return  result;
+}
+
+
 @end
